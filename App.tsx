@@ -13,14 +13,15 @@ export default function App() {
       setData(res);
     }
 
-    apiCall();
+    // apiCall();
   },[])
 
-  console.log(data);
+  // console.log(data);
 
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>First Child component!</Text>
+      <Text>Second Child Component!</Text>
       <StatusBar style="auto" />
     </View>
   );
